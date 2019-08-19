@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/scripts/bootstrap.js"></script>
+    <script src="~/scripts/popper.js"></script>
+    <script src="~/scripts/jquery-3.4.1.js"></script>
+</head>
+<body class="container-fluid">
+    <div class="table-responsive" >
+        <table class="table-hover, table-bordered" style="width:800px;height:500px;">
+            <thead class="table-primary">
+                <tr class="table-info">
+                    <th>CurrencyNote</th>
+                    <th>Count</th>
+                    <th>=</th>
+                    <th>Actual Value</th>
+                </tr>
+            </thead>
+         <tr >
+             <td>@ViewBag.text</td>
+             <td>@ViewBag.counter</td>
+             <td>=</td>
+             <td>@ViewBag.actualValue</td>
+         </tr>
+            <tr>
+                <td>@ViewBag.text</td>
+                <td>@ViewBag.counter</td>
+                <td>=</td>
+                <td>@ViewBag.actualValue</td>
+            </tr>
+            <tr>
+                <td>@ViewBag.text</td>
+                <td>@ViewBag.counter</td>
+                <td>=</td>
+                <td>@ViewBag.actualValue</td>
+            </tr>
+            <tr>
+                <td>@ViewBag.text</td>
+                <td>@ViewBag.counter</td>
+                <td>=</td>
+                <td>@ViewBag.actualValue</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
